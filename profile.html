@@ -1,37 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Personal Profile</title>
+    <title>Product Feature Page</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 </head>
-<body class="bg-light">
+
+<body>
     <div class="container py-5">
-    <div class="row justify-content-center">
-    <div class="col-12 col-lg-10">
-    <div class="card shadow-sm border-0">
-    <div class="card-body p-4 p-md-5">
-    <div class="row align-items-center">
-    <div class="col-12 col-md-4 text-center mb-4 mb-md-0">
-    <img src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHByb2ZpbGUlMjBwaWN0dXJlfGVufDB8fDB8fHww"
-        alt="Profile photo"class="img-fluid rounded">
-    </div>
-    <div class="col-12 col-md-8">
-    <h1 class="h3 font-weight-bold mb-3">Jordan Lee</h1>
-    <p class="lead mb-0">
-    Jordan is a creative student who enjoys web design, technology, and solving problems.
-    This profile section uses Bootstrap's responsive grid so the image and bio appear side by side
-    on larger screens and stack neatly on mobile devices.</p>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div>
+        <div class="text-center mb-5">
+            <h1 class="display-4 font-weight-bold mb-3">Product Feature Page</h1>
+        </div>
+
+        <div class="row">
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-white font-weight-bold">Beauty of Joseon</div>
+                    <img class="card-img-top"
+                        src="https://images.unsplash.com/photo-1596462502278-27bfdc403348?auto=format&fit=crop&w=900&q=60"
+                        alt="Beauty of Joseon product">
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text text-muted">A gentle skincare option inspired by traditional ingredients and
+                            modern routines.</p>
+                        <a href="https://beautyofjoseon.com/?srsltid=AfmBOor5nOp_rQNsS2QiQNcSd3lzzH_5nZZ758vRR5JJILyknA1i7HBZ"
+                            class="btn btn-link p-0 mb-3">Read more</a>
+                        <div class="dropdown mt-auto">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                data-toggle="dropdown">More options</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                                <a class="dropdown-item" href="#">Compare</a>
+                                <a class="dropdown-item" href="#">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-white font-weight-bold">Plum Goodness</div>
+                    <img class="card-img-top"
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS_3WnFeMvNyfjcUqtZe4xNrK9pHyvxR5M8Cg&s"
+                        alt="Plum Goodness product">
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text text-muted">Vegan-friendly formulas made to support a simple and effective
+                            skincare routine.</p>
+                        <a href="https://plumgoodness.com/collections/all-in-stock?utm_source=ap&utm_medium=clickonik_6a0d37b3aa362c4fe5c8b5de&utm_campaign=6a0d37b3aa362c4fe5c8b5de&gad_source=1"
+                            class="btn btn-link p-0 mb-3">Read more</a>
+                        <div class="dropdown mt-auto">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                data-toggle="dropdown">More options</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                                <a class="dropdown-item" href="#">Compare</a>
+                                <a class="dropdown-item" href="#">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-header bg-white font-weight-bold">Cetaphil</div>
+                    <img class="card-img-top"
+                        src="data:image/jpeg;base64,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"
+                        alt="Cetaphil product">
+                    <div class="card-body d-flex flex-column">
+                        <p class="card-text text-muted">A trusted gentle cleanser line designed for face and body care.
+                        </p>
+                        <a href="https://www.cetaphil.in/products/cleansers" class="btn btn-link p-0 mb-3">Read more</a>
+                        <div class="dropdown mt-auto">
+                            <button class="btn btn-outline-secondary dropdown-toggle" type="button"
+                                data-toggle="dropdown">More options</button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Add to Wishlist</a>
+                                <a class="dropdown-item" href="#">Compare</a>
+                                <a class="dropdown-item" href="#">Report</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-4">
+            <div class="col-12 col-lg-10 mx-auto">
+                <h2 class="h4 font-weight-bold mb-3">Product FAQs</h2>
+                <div id="faqAccordion" class="accordion">
+                    <div class="card">
+                        <div class="card-header" id="faqOneHeading">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link text-left w-100" data-toggle="collapse"
+                                    data-target="#faqOne" aria-expanded="true" aria-controls="faqOne">
+                                    Are these products suitable for sensitive skin?
+                                </button>
+                            </h5>
+                        </div>
+
+
+                        <div class="card">
+                            <div class="card-header" id="faqThreeHeading">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link text-left w-100 collapsed" data-toggle="collapse"
+                                        data-target="#faqThree" aria-expanded="false" aria-controls="faqThree">
+                                        How do I save a product for later?
+                                    </button>
+                                </h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 </body>
+
 </html>
